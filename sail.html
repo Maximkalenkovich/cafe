@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Form</title>
+    <link href="sailstyle.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <form class="guruweba_example_form" name="feedback" method="POST" action="/feedback.php">
+        <div class="guruweba_example_caption">Coffee</div>
+        <select name="CoffeeSail" required="required">
+          <option value="">-none-</option>
+          <option>French Vanilla</option>
+          <option>Caramel Macchiato</option>
+          <option>Pumpkin Spice</option>
+          <option>Hazelnut</option>
+          <option>Mocha</option>
+        </select>
+        <div class="exempledesserts">Dessert</div>
+        <select class="dessertsail" required>
+            <option value="">-none-</option>
+            <option>Donut</option>
+            <option>Cherry Pie</option>
+            <option>Cheesecake</option>
+            <option>Cinnamon Roll</option>
+        </select>
+        <div class="namesail">Name</div>
+        <input type="text" name="name" required="required">
+        <div class="namesail">Number</div>
+        <input type="text" name="number" required="required">
+        <div class="namesail">City</div>
+        <select  id="city" name=" city">
+        <option value="msk">Minsk</option>
+        <option value="grd">Grodno</option>
+    </select>
+        <div class="namesail">Adress</div>
+        <input type="text" name="message">
+        <input id="button" type="submit" name="submit_btn" value="Отправить">
+      </form>
+      </body>
+      </html>

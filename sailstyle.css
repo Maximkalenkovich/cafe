@@ -1,0 +1,49 @@
+body {
+    background-image: url('sail.jpg');
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+}
+.guruweba_example_form{
+    padding: 50px;
+    position: fixed; top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.namesail, .guruweba_example_caption, .exempledesserts{
+    text-shadow:
+    1px 1px white,
+    2px 2px #777;
+  color: #333;
+  transition: all 1s;
+  font-size: 30px;
+}
+.namesail:hover, .guruweba_example_caption:hover, .exempledesserts:hover{
+    text-shadow:
+    1px 1px white,
+    2px 2px tomato;
+  color: crimson;
+}
+select {
+    width: 100%;
+    border: 3px solid #555;
+    background-color: #f1f1f1;    
+}
+input {
+    width: 96%;
+    border: 3px solid #555;  
+    background-color: #f1f1f1;  
+}
+#city{
+    width: 100%;
+    padding: 3px 10px;
+    background-color: #f1f1f1;
+}
+#button {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 26%;
+}
