@@ -67,6 +67,26 @@ h1, h2 {
   width: 25%;
 }
 
+button {
+  width: 150PX;
+  margin: 0 auto;
+  display: block;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  font-size: 24px;
+  background-color:rgb(167, 133, 82);
+  border-color:rgb(106, 116, 91);
+}
+button:hover{
+  background-color:aqua
+}
+.butt {
+  text-decoration: none;
+  font-family: cursive, sans-serif;
+}
+
 /* FOOTER */
 
 footer {
